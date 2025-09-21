@@ -32,7 +32,7 @@ if(isset($_POST['send_single_sms'])){
 	  CURLOPT_HTTPHEADER => array(
 	    'Content-Type: application/json',
 	    'Accept: application/json',
-	    'Authorization: Basic YzlmMGY4OTVmYjk4YWI5MTU5ZjUxZmQwMjk3ZTIzNmQ6ZDg5YmU0OWZlYzc0MWFhN2I1ZmJiMjFiMjg5MTkwNjI='
+	    'Authorization: Basic '
 	  ),
 	));
 
